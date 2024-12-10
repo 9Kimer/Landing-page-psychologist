@@ -1,0 +1,30 @@
+.container {
+	text-align: center;
+	background-color: papayawhip;
+	height: 100%;
+}
+
+.title {
+	margin: 50px 100px;
+	padding: 20px 40px;
+	border-radius: 10%;
+	cursor: default;
+}
+
+.items {
+	margin: 50px 100px;
+}
+
+.item {
+	padding-bottom: 100px;
+}
+
+.images {
+	height: 128px;
+	width: 128px;
+}
+
+.bigImages {
+	height: 512px;
+	width: 1356x;
+}

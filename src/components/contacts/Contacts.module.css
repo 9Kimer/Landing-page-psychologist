@@ -1,0 +1,20 @@
+.container {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	margin: 180px 100px 280px 100px;
+	font-size: 24px;
+	padding: 10px 20px;
+	border: 2px solid indianred;
+	border-radius: 10px;
+	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.linka {
+	color: indianred;
+	text-decoration: none;
+}
+
+.linka:hover {
+	text-decoration: underline;
+}
