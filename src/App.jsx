@@ -1,3 +1,4 @@
+import { HashRouter } from 'react-router-dom';
 import MainItem from './components/MainItem/MainItem';
 import About from './components/about/About';
 import Education from './components/education/Education';
