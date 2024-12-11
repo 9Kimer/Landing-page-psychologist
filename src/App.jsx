@@ -1,4 +1,3 @@
-import { HashRouter } from 'react-router-dom';
 import MainItem from './components/MainItem/MainItem';
 import About from './components/about/About';
 import Education from './components/education/Education';
@@ -8,7 +7,7 @@ import Price from './components/price/Price';
 
 export default function App() {
 	return (
-		<HashRouter basename='/'>
+		<>
 			<Header />
 
 			<MainItem />
@@ -20,6 +19,6 @@ export default function App() {
 			<Education />
 
 			<Footer />
-		</HashRouter>
+		</>
 	);
 }
