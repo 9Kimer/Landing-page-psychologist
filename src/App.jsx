@@ -7,7 +7,7 @@ import Price from './components/price/Price';
 
 export default function App() {
 	return (
-		<>
+		<HashRouter basename='/'>
 			<Header />
 
 			<MainItem />
@@ -19,6 +19,6 @@ export default function App() {
 			<Education />
 
 			<Footer />
-		</>
+		</HashRouter>
 	);
 }

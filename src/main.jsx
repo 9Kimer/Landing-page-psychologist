@@ -1,10 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import {
-	createBrowserRouter,
-	HashRouter,
-	RouterProvider,
-} from 'react-router-dom';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './App.jsx';
 import About from './components/about/About.jsx';
 import Contacts from './components/contacts/Contacts.jsx';
@@ -42,8 +38,6 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
 	<React.StrictMode>
-		<HashRouter>
-			<RouterProvider router={router} />
-		</HashRouter>
+		<RouterProvider router={router} />
 	</React.StrictMode>
 );
