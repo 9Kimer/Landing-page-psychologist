@@ -5,7 +5,7 @@ export default function Header() {
 	return (
 		<header>
 			<div className={styles.logo}>
-				<a href='/'>ПсихоМама</a>
+				<a href='/'>Психолог Ольга Ермолаева</a>
 			</div>
 
 			<ul className={styles.menu}>

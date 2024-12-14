@@ -6,7 +6,7 @@ export default function Footer() {
 		<>
 			<footer className={styles.container}>
 				<div className={styles.logo}>
-					<a href='/'>ПсихоМама</a>
+					<a href='/'>Психолог Ольга Ермолаева</a>
 				</div>
 				<ul className={styles.list}>
 					<li>г.Екатеринбург, ул.Бебринская, 10А, офис 30</li>
