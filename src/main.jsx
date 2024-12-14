@@ -9,6 +9,7 @@ import Footer from './components/footer/Footer.jsx';
 import Header from './components/header/Header.jsx';
 import Price from './components/price/Price.jsx';
 import './styles/global.css';
+import './styles/responsive.css';
 
 const router = createBrowserRouter([
 	{

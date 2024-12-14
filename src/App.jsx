@@ -4,21 +4,22 @@ import Education from './components/education/Education';
 import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
 import Price from './components/price/Price';
+import styles from './styles/flex.module.css';
 
 export default function App() {
 	return (
-		<>
-			<Header />
+		<div className={styles.container}>
+			<Header className={styles.item} />
 
-			<MainItem />
+			<MainItem className={styles.item} />
 
-			<About />
+			<About className={styles.item} />
 
-			<Price />
+			<Price className={styles.item} />
 
-			<Education />
+			<Education className={styles.item} />
 
-			<Footer />
-		</>
+			<Footer className={styles.item} />
+		</div>
 	);
 }

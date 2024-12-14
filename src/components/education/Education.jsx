@@ -1,8 +1,6 @@
 import { useState } from 'react';
 import styles from './Education.module.css';
-import Buddah from '/public/Buddah.jpg';
-import Pereyro from '/public/Pereyro.jpg';
-import Rimura from '/public/rimura.jpg';
+import diplomaFake from '/public/diplomaFake.jpg';
 
 export default function Education() {
 	const [isClickedFirst, setIsClickedFirst] = useState(false);
@@ -15,37 +13,37 @@ export default function Education() {
 			<div className={styles.items}>
 				<div className={styles.item}>
 					<h2>Уральский Федеральный Университет</h2>
-					<p>Специальность: математик </p>
-					<p>Квалификация: математик, преподаватель</p>
-					<p>Годы обучения: 1984 - 1991</p>
+					<p>Специальность: Клиническая психология </p>
+					<p>Квалификация: Психолог, психотерапевт</p>
+					<p>Годы обучения: 2023 - 2024</p>
 					<img
 						onClick={() => setIsClickedFirst(true)}
 						className={isClickedFirst ? styles.bigImages : styles.images}
-						src={Buddah}
+						src={diplomaFake}
 					/>
 				</div>
 
 				<div className={styles.item}>
-					<h2>Уральский Федеральный Университет</h2>
-					<p>Специальность: математик </p>
-					<p>Квалификация: математик, преподаватель</p>
-					<p>Годы обучения: 1984 - 1991</p>
+					<h2>Московский Институт Психоанализа</h2>
+					<p>Специальность: Психоанализ</p>
+					<p>Квалификация: Психоаналитик</p>
+					<p>Годы обучения: 2023-2025</p>
 					<img
 						onClick={() => setIsClickedSec(true)}
 						className={isClickedSec ? styles.bigImages : styles.images}
-						src={Rimura}
+						src={diplomaFake}
 					/>
 				</div>
 
 				<div className={styles.item}>
-					<h2>Уральский Федеральный Университет</h2>
-					<p>Специальность: математик </p>
-					<p>Квалификация: математик, преподаватель</p>
-					<p>Годы обучения: 1984 - 1991</p>
+					<h2>Psychodemia</h2>
+					<p>Специальность: КПТ психология </p>
+					<p>Квалификация: Психолог в направлении КПТ</p>
+					<p>Годы обучения: 2020-2024</p>
 					<img
 						onClick={() => setIsClickedThird(true)}
 						className={isClickedThird ? styles.bigImages : styles.images}
-						src={Pereyro}
+						src={diplomaFake}
 					/>
 				</div>
 			</div>
