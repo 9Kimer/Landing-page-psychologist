@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import styles from './Education.module.css';
 import diplomaFake from '/public/diplomaFake.jpg';
+import Cross from '/public/favicon-32x32.png';
 
 export default function Education() {
 	const [isClickedFirst, setIsClickedFirst] = useState(false);
@@ -16,11 +17,18 @@ export default function Education() {
 					<p>Специальность: Клиническая психология </p>
 					<p>Квалификация: Психолог, психотерапевт</p>
 					<p>Годы обучения: 2023 - 2024</p>
-					<img
-						onClick={() => setIsClickedFirst(true)}
-						className={isClickedFirst ? styles.bigImages : styles.images}
-						src={diplomaFake}
-					/>
+					<div className={styles.diploma_cross}>
+						<img
+							className={isClickedFirst ? styles.cross_active : styles.cross}
+							onClick={() => setIsClickedFirst(false)}
+							src={Cross}
+						/>
+						<img
+							onClick={() => setIsClickedFirst(true)}
+							className={isClickedFirst ? styles.bigImages : styles.images}
+							src={diplomaFake}
+						/>
+					</div>
 				</div>
 
 				<div className={styles.item}>
@@ -28,11 +36,18 @@ export default function Education() {
 					<p>Специальность: Психоанализ</p>
 					<p>Квалификация: Психоаналитик</p>
 					<p>Годы обучения: 2023-2025</p>
-					<img
-						onClick={() => setIsClickedSec(true)}
-						className={isClickedSec ? styles.bigImages : styles.images}
-						src={diplomaFake}
-					/>
+					<div className={styles.diploma_cross}>
+						<img
+							className={isClickedSec ? styles.cross_active : styles.cross}
+							onClick={() => setIsClickedSec(false)}
+							src={Cross}
+						/>
+						<img
+							onClick={() => setIsClickedSec(true)}
+							className={isClickedSec ? styles.bigImages : styles.images}
+							src={diplomaFake}
+						/>
+					</div>
 				</div>
 
 				<div className={styles.item}>
@@ -40,11 +55,18 @@ export default function Education() {
 					<p>Специальность: КПТ психология </p>
 					<p>Квалификация: Психолог в направлении КПТ</p>
 					<p>Годы обучения: 2020-2024</p>
-					<img
-						onClick={() => setIsClickedThird(true)}
-						className={isClickedThird ? styles.bigImages : styles.images}
-						src={diplomaFake}
-					/>
+					<div className={styles.diploma_cross}>
+						<img
+							className={isClickedThird ? styles.cross_active : styles.cross}
+							onClick={() => setIsClickedThird(false)}
+							src={Cross}
+						/>
+						<img
+							onClick={() => setIsClickedThird(true)}
+							className={isClickedThird ? styles.bigImages : styles.images}
+							src={diplomaFake}
+						/>
+					</div>
 				</div>
 			</div>
 		</div>

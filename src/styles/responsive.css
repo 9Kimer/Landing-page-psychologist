@@ -1,14 +1,32 @@
+@media (min-width: 1380px) {
+}
+
 @media (min-width: 1200px) {
+	._container_cjww8_1 {
+		grid-template-columns: 1;
+	}
 }
 
 @media (min-width: 992px) {
+	._container_cjww8_1 {
+		grid-template-columns: 1;
+	}
 }
 
 @media (min-width: 768px) {
+	._container_cjww8_1 {
+		grid-template-columns: 1;
+	}
 }
 
 @media (min-width: 480px) {
+	._container_cjww8_1 {
+		grid-template-columns: 1;
+	}
 }
 
 @media (min-width: 320px) {
+	._container_cjww8_1 {
+		grid-template-columns: 1;
+	}
 }
