@@ -1,32 +1,475 @@
-@media (min-width: 1380px) {
+@media (max-width: 1800px) {
+	/* .Price__items {
+		margin: 0 100px;
+	} */
 }
 
-@media (min-width: 1200px) {
-	._container_cjww8_1 {
-		grid-template-columns: 1;
+@media (max-width: 1380px) {
+	.Header__menu {
+		gap: 40px;
+	}
+	/* body {
+		justify-content: space-around;
+	} */
+}
+
+@media (max-width: 1200px) {
+	.MainItem__photo {
+		max-width: 240px;
+		max-height: 340px;
+	}
+
+	.Header__logo {
+		font-size: 18px;
+	}
+
+	.Header__menu {
+		font-size: 14px;
+		margin-right: 10px;
+	}
+
+	.MainItem__title {
+		font-size: 24px;
+	}
+
+	.MainItem__reg {
+		font-size: 20px;
+	}
+
+	.MainItem__quote {
+		font-size: 16px;
+		margin-bottom: 20px;
+	}
+
+	.MainItem__list {
+		font-size: 16px;
+	}
+
+	.About__title {
+		font-size: 24px;
+	}
+
+	.About__article {
+		font-size: 16px;
+		list-style-image: url(/public/Done16.png);
+	}
+
+	.Price__title {
+		font-size: 24px;
+	}
+
+	.Price__item h2 {
+		font-size: 20px;
+	}
+
+	.Price__details {
+		max-width: 200px;
+	}
+
+	.Education__title {
+		font-size: 24px;
+	}
+
+	.Education__container h2 {
+		font-size: 18px;
+	}
+
+	.Education__bigImages {
+		max-height: 80%;
+		max-width: 80%;
+	}
+
+	.Education__cross_active {
+		left: 90%;
+	}
+
+	.Footer__logo {
+		font-size: 20px;
+	}
+
+	.Footer__list li {
+		margin-top: 10px;
+		font-size: 14px;
+	}
+
+	.Footer__reg_btn {
+		font-size: 14px;
+	}
+
+	.Contacts__text {
+		margin: 0 auto;
+		padding: 8px 32px;
+		font-size: 20px;
+	}
+
+	body {
+		justify-content: space-around;
 	}
 }
 
-@media (min-width: 992px) {
-	._container_cjww8_1 {
-		grid-template-columns: 1;
+@media (max-width: 992px) {
+	.Header__container {
+		padding: 0 16px;
+	}
+
+	.Header__contact {
+		font-size: 14px;
+		padding: 10px 20px;
+	}
+
+	.Header__logo {
+		font-size: 16px;
+	}
+
+	.Header__menu {
+		font-size: 12px;
+		gap: 20px;
+	}
+	body {
+		justify-content: space-around;
+	}
+
+	.MainItem__photo {
+		border: 4px solid indianred;
+	}
+
+	.Footer__logo {
+		font-size: 16px;
+	}
+
+	.Footer__list li {
+		font-size: 12px;
+	}
+
+	.Contacts__text {
+		max-width: 80%;
+		flex-direction: row;
+		flex-wrap: wrap;
+		margin: 0 auto;
+		padding: 8px 32px;
+		font-size: 20px;
 	}
 }
 
-@media (min-width: 768px) {
-	._container_cjww8_1 {
-		grid-template-columns: 1;
+@media (max-width: 768px) {
+	.Header__logo {
+		font-size: 14px;
+	}
+
+	.Header__menu {
+		gap: 20px;
+	}
+
+	.Header__contact {
+		font-size: 10px;
+		padding: 8px 16px;
+	}
+
+	.MainItem__title {
+		font-size: 20px;
+	}
+
+	.MainItem__reg {
+		font-size: 16px;
+	}
+
+	.MainItem__quote {
+		font-size: 12px;
+		margin-bottom: 14px;
+	}
+
+	.MainItem__list {
+		font-size: 12px;
+		margin-bottom: 25px;
+	}
+
+	.About__title {
+		font-size: 20px;
+	}
+
+	.About__article {
+		font-size: 14px;
+		margin-bottom: 50px;
+	}
+
+	.About__list {
+		grid-template-columns: 70%;
+	}
+
+	.Price__title {
+		font-size: 20px;
+	}
+
+	.Price__items {
+		justify-content: center;
+	}
+
+	.Price__item h2 {
+		font-size: 16px;
+	}
+
+	.Price__details {
+		font-size: 12px;
+	}
+
+	.Education__title {
+		font-size: 20px;
+	}
+
+	.Education__container h2 {
+		font-size: 16px;
+	}
+
+	.Footer__logo {
+		font-size: 14px;
+	}
+
+	.Footer__list li {
+		font-size: 8px;
+	}
+
+	.Footer__reg_btn {
+		font-size: 10px;
+		padding: 10px 24px;
 	}
 }
 
-@media (min-width: 480px) {
-	._container_cjww8_1 {
-		grid-template-columns: 1;
+@media (max-width: 600px) {
+	.MainItem__main {
+		flex-direction: column;
+		margin: 40px auto;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	.MainItem__photo {
+		max-width: 160px;
+		max-height: 260px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 20px;
+	}
+
+	header {
+		justify-content: center;
+		flex-direction: column;
+	}
+
+	.Header__logo {
+		margin-top: 14px;
+	}
+
+	.Header__menu {
+		font-size: 12px;
+		gap: 14px;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+
+	.MainItem__list_text {
+		list-style-type: none;
+		padding-left: 0;
+	}
+
+	.MainItem__list_text li {
+		padding-bottom: 10px;
+	}
+
+	.Header__contact {
+		margin-top: 14px;
+	}
+
+	.MainItem__quote {
+		margin-bottom: 50px;
+	}
+
+	.MainItem__title {
+		font-size: 16px;
+	}
+
+	.MainItem__reg {
+		font-size: 14px;
+	}
+
+	.About__title {
+		font-size: 18px;
+		margin-bottom: 30px;
+	}
+
+	.Price__item {
+		width: 80%;
+	}
+
+	.Price__descr {
+		font-size: 12px;
+	}
+
+	.Contacts__section {
+		min-height: 60vh;
+	}
+
+	.Contacts__text {
+		text-align: center;
+		margin: 0 auto;
+		padding: 8px 32px;
+		font-size: 16px;
+	}
+
+	.Footer__list {
+		max-width: 100px;
+		padding-left: 10px;
+	}
+
+	.Footer__reg_btn {
+		font-size: 10px;
 	}
 }
 
-@media (min-width: 320px) {
-	._container_cjww8_1 {
-		grid-template-columns: 1;
+@media (max-width: 450px) {
+	header {
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+	.Header__menu {
+		align-items: center;
+		font-size: 10px;
+		justify-content: center;
+		flex-direction: column;
+		margin: 0 auto;
+	}
+
+	.Header__contact {
+		margin-bottom: 10px;
+	}
+
+	.MainItem__title {
+		text-align: center;
+	}
+
+	.MainItem__main {
+		flex-direction: column;
+		margin: 40px auto;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	.MainItem__photo {
+		max-width: 120px;
+		max-height: 220px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 20px;
+	}
+
+	.MainItem__quote {
+		margin-bottom: 40px;
+	}
+
+	.MainItem__list_text {
+		list-style-type: none;
+		padding-left: 0;
+	}
+
+	.MainItem__list_text li {
+		padding-bottom: 10px;
+	}
+
+	.About__section {
+		padding-top: 0;
+	}
+
+	.About__title {
+		max-width: 300px;
+		text-align: center;
+	}
+
+	.Price__container {
+		margin-bottom: 40px;
+	}
+
+	.Price__item {
+		width: 80%;
+		padding: 20px 30px;
+		margin: 20px 20px;
+	}
+
+	.Price__descr {
+		display: none;
+	}
+
+	.Price__btn_reg {
+		font-size: 12px;
+	}
+
+	.Education__container {
+		margin-top: 40px;
+	}
+
+	.Education__container h2 {
+		font-size: 14px;
+	}
+
+	.Education__title {
+		font-size: 18px;
+		padding-top: 0;
+	}
+
+	.Education__item_details {
+		font-size: 12px;
+	}
+
+	.Education__items {
+		margin: 50px 50px;
+	}
+
+	.Education__images {
+		height: 128px;
+		width: 156px;
+		margin-top: 20px;
+	}
+
+	.Education__bigImages {
+		height: 256px;
+		width: 312px;
+		max-height: 100%;
+		max-width: 100%;
+	}
+
+	.Education__cross_active {
+		left: 100%;
+	}
+
+	.Contacts__text {
+		max-width: 40vh;
+		text-align: center;
+		margin: 0 auto;
+		padding: 6px 24px;
+	}
+
+	.Footer__container {
+		flex-direction: column-reverse;
+		text-align: center;
+		padding-bottom: 20px;
+	}
+
+	.Footer__list {
+		padding-left: 0;
+	}
+
+	.Footer__logo {
+		margin-top: 10px;
+	}
+
+	.Footer__reg_btn {
+		font-size: 12px;
+		margin-top: 20px;
+	}
+}
+
+@media (max-width: 350px) {
+	.About__title {
+		max-width: 256px;
 	}
 }

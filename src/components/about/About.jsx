@@ -1,13 +1,13 @@
 import { examples } from '../../data';
-import styles from './About.module.css';
+import './About.css';
 
 export default function About() {
 	return (
-		<div className={styles.section}>
-			<h1 className={styles.title}>Примеры запросов, с которыми я работаю:</h1>
-			<ul className={styles.ul}>
+		<div className='About__section'>
+			<h1 className='About__title'>Примеры запросов, с которыми я работаю:</h1>
+			<ul className='About__list'>
 				{examples.map(example => (
-					<li key={example.id} className={styles.list}>
+					<li key={example.id} className='About__article'>
 						{example.exampleText}
 					</li>
 				))}

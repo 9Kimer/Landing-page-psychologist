@@ -1,10 +1,10 @@
-.container {
+.App__container {
 	display: flex;
 	align-items: stretch;
 	flex-direction: column;
 	flex-wrap: wrap;
 }
 
-.item {
+.App__item {
 	flex-shrink: 2;
 }

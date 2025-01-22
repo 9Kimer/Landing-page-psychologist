@@ -1,13 +1,13 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { prices } from '../../data';
-import styles from './Price.module.css';
+import './Price.css';
 
 export default function Price() {
 	const [isVisible, setIsVisible] = useState(false);
 
 	const items = prices.map(item => (
-		<div key={item.id} className={styles.item}>
+		<div key={item.id} className='Price__item'>
 			<h2>{item.name}</h2>
 			<ul>
 				<li>{item.type}</li>
@@ -18,23 +18,23 @@ export default function Price() {
 				<p
 					onMouseEnter={() => setIsVisible(true)}
 					onMouseLeave={() => setIsVisible(false)}
-					className={styles.descr}
+					className='Price__descr'
 				>
 					{item.details}
 				</p>
-				{isVisible && <div className={styles.details}>{item.detailsText}</div>}
+				{isVisible && <div className='Price__details'>{item.detailsText}</div>}
 			</div>
-			<Link className={styles.link} to='/contacts'>
-				<button className={styles.btn_reg}>{item.button}</button>
+			<Link className='Price__link' to='/contacts'>
+				<button className='Price__btn_reg'>{item.button}</button>
 			</Link>
 		</div>
 	));
 
 	return (
-		<div className={styles.container}>
-			<h1>Тарифы</h1>
+		<div className='Price__container'>
+			<h1 className='Price__title'>Тарифы</h1>
 
-			<div className={styles.items}>{items}</div>
+			<div className='Price__items'>{items}</div>
 		</div>
 	);
 }

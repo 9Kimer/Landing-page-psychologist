@@ -1,0 +1,29 @@
+.About__section {
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-evenly;
+	background-color: papayawhip;
+}
+
+.About__title {
+	display: flex;
+	align-items: center;
+	margin-bottom: 60px;
+}
+
+.About__list {
+	grid-template-columns: 36% 36%;
+	display: grid;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.About__article {
+	/* border-bottom: 1px solid indianred; */
+	margin-bottom: 100px;
+	font-size: 24px;
+	padding: 0 15px;
+	list-style-image: url(/public/Done.png);
+}
