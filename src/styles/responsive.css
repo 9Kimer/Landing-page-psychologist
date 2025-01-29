@@ -224,12 +224,17 @@
 		font-size: 14px;
 	}
 
+	.Footer__list {
+		max-width: 100px;
+		margin-right: 20px;
+	}
+
 	.Footer__list li {
-		font-size: 8px;
+		font-size: 12px;
 	}
 
 	.Footer__reg_btn {
-		font-size: 10px;
+		font-size: 16px;
 		padding: 10px 24px;
 	}
 }
@@ -243,8 +248,8 @@
 	}
 
 	.MainItem__photo {
-		max-width: 160px;
-		max-height: 260px;
+		max-width: 180px;
+		max-height: 280px;
 		margin-left: auto;
 		margin-right: auto;
 		margin-bottom: 20px;
@@ -256,11 +261,12 @@
 	}
 
 	.Header__logo {
-		margin-top: 14px;
+		margin-top: 8px;
+		font-size: 18px;
 	}
 
 	.Header__menu {
-		font-size: 12px;
+		font-size: 14px;
 		gap: 14px;
 		align-items: center;
 		justify-content: center;
@@ -278,18 +284,24 @@
 
 	.Header__contact {
 		margin-top: 14px;
+		font-size: 16px;
 	}
 
 	.MainItem__quote {
 		margin-bottom: 50px;
+		font-size: 14px;
 	}
 
 	.MainItem__title {
-		font-size: 16px;
+		font-size: 18px;
+	}
+
+	.MainItem__list_text {
+		font-size: 14px;
 	}
 
 	.MainItem__reg {
-		font-size: 14px;
+		font-size: 16px;
 	}
 
 	.About__title {
@@ -316,13 +328,12 @@
 		font-size: 16px;
 	}
 
-	.Footer__list {
-		max-width: 100px;
-		padding-left: 10px;
+	.Footer__logo {
+		max-width: 120px;
 	}
 
 	.Footer__reg_btn {
-		font-size: 10px;
+		font-size: 12px;
 	}
 }
 
@@ -334,7 +345,6 @@
 	}
 	.Header__menu {
 		align-items: center;
-		font-size: 10px;
 		justify-content: center;
 		flex-direction: column;
 		margin: 0 auto;
@@ -356,8 +366,6 @@
 	}
 
 	.MainItem__photo {
-		max-width: 120px;
-		max-height: 220px;
 		margin-left: auto;
 		margin-right: auto;
 		margin-bottom: 20px;
@@ -370,10 +378,6 @@
 	.MainItem__list_text {
 		list-style-type: none;
 		padding-left: 0;
-	}
-
-	.MainItem__list_text li {
-		padding-bottom: 10px;
 	}
 
 	.About__section {
@@ -408,16 +412,16 @@
 	}
 
 	.Education__container h2 {
-		font-size: 14px;
+		font-size: 16px;
 	}
 
 	.Education__title {
-		font-size: 18px;
+		font-size: 20px;
 		padding-top: 0;
 	}
 
 	.Education__item_details {
-		font-size: 12px;
+		font-size: 14px;
 	}
 
 	.Education__items {
@@ -455,15 +459,23 @@
 	}
 
 	.Footer__list {
+		max-width: 220px;
 		padding-left: 0;
+		margin-right: 0;
+	}
+
+	.Footer__list li {
+		font-size: 14px;
 	}
 
 	.Footer__logo {
+		font-size: 18px;
 		margin-top: 10px;
+		max-width: 100%;
 	}
 
 	.Footer__reg_btn {
-		font-size: 12px;
+		font-size: 16px;
 		margin-top: 20px;
 	}
 }

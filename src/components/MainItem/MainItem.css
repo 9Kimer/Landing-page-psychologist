@@ -36,6 +36,10 @@
 	list-style-type: circle;
 }
 
+.MainItem__list_text li {
+	padding-bottom: 10px;
+}
+
 .MainItem__link {
 	text-decoration: none;
 	color: indianred;
